@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ✅ Moving gradient keyframes */
 @keyframes gradientShift {
   0% {
     background-position: 0% 50%;
@@ -14,10 +15,20 @@
   }
 }
 
+/* ✅ Fade in keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ✅ Apply clean system font and gradient background to entire page */
 body {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-  background: linear-gradient(270deg, #a855f7, #ec4899, #6366f1);
+  background: linear-gradient(270deg, #000000, #666666, #ffffff);
   background-size: 200% 200%;
   animation: gradientShift 8s ease-in-out infinite;
-  /* ✅ No 'color: black;' here! */
 }
