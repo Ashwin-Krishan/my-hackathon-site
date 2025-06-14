@@ -4,9 +4,12 @@ export default function Home() {
       <h1 className="text-6xl font-extrabold animate-bounce mb-4">
         Hello, world! 🚀
       </h1>
-      <p className="text-2xl animate-fade-in">
-        This is my working homepage!
-      </p>
+      <p
+  className="text-2xl opacity-0 animate-[fadeIn_4s_ease-out_forwards]"
+>
+  This is my working homepage!
+</p>
+
     </main>
   );
 }

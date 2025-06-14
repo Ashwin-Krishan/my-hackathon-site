@@ -2,7 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Optional: keep your custom CSS below this */
+/* ✅ Custom fadeIn keyframes for inline Tailwind usage */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ✅ You can keep your custom CSS below */
 :root {
   --background: #ffffff;
   --foreground: #171717;
