@@ -1,8 +1,12 @@
 export default function Home() {
   return (
-    <main>
-      <h1>Hello, world! 🚀</h1>
-      <p>This is my working homepage!</p>
+    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white">
+      <h1 className="text-6xl font-extrabold animate-bounce mb-4">
+        Hello, world! 🚀
+      </h1>
+      <p className="text-2xl animate-fade-in">
+        This is my working homepage!
+      </p>
     </main>
   );
 }
